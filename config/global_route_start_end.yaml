@@ -1,0 +1,50 @@
+###
+# if yaw = 90 or -90 or 270 or -270, x will be a lateral value, and y will be a longitudinal value
+# if yaw = 0 or 360 or -360 or 180, or -180, x will be a longitduinal value, and y will be a lateral value
+###
+
+
+origin:
+  x: -85.202950  # -82, -85.202950
+  y: -110.918488
+  z: 0.060000
+  pitch: 0.0
+  yaw: 90.0
+  roll: 0.0
+
+#carla.Transform(carla.Location(x=70,
+#                               y=random.choice([-4, -7.1]),
+#                               z=0.3),
+#                carla.Rotation(pitch=0.000000,
+#                               yaw=180.000000,
+#                               roll=0.000000))
+
+destination:
+  x: -84.827919
+  y: -30.590986
+  z: 0.060000
+  pitch: 0.0
+  yaw: 90.0
+  roll: 0.0
+
+#carla.Transform(carla.Location(x=-10,
+#                               y=80,
+#                               z=0.3),
+#               carla.Rotation(pitch=0.000000,
+#                              yaw=90.000000,
+#                              roll=0.000000))
+
+spectator_pose:
+  add_x: +70.0
+  add_y: +0.0
+  z: 100.0
+  pitch: -90.0
+  yaw: 180.0
+  roll: 0.0
+
+#carla.Transform(self.ego.get_transform().transform(carla.Location(x=+40,
+#                                                                  y=-30,
+#                                                                  z=100)),
+#                                                   carla.Rotation(pitch=-90.0000,
+#                                                                  yaw=180.000000,
+#                                                                  roll=0.000000))
